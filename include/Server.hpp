@@ -23,10 +23,10 @@ public:
     ~Server();
 
     //visualiser les donnees recues des capteurs dans la console.
-    void consoleWrite();
+    void consoleWrite(std::string nom_capteur, std::string donnee);
 
     //stocker les donnees des capteurs dans des fichiers de logs
-    void fileWrite();
+    void fileWrite(std::string nom_capteur, std::string donnee, std::string heure);
 };
 
 #endif
