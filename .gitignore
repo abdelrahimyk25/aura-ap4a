@@ -30,3 +30,25 @@
 *.exe
 *.out
 *.app
+# Fichiers compilés et binaires
+*.o
+*.obj
+*.exe
+*.out
+bin/
+
+# CMake
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDEs
+.vscode/
+.idea/
+*.pro.user
+
+# Logs générés par le simulateur
+*.log
+*.csv
