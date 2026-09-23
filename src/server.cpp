@@ -39,7 +39,7 @@ void Server::consoleWrite(std::string nom_capteur, std::string donnee)
 }
 
 // Stocker les données des capteurs dans des fichiers de logs
-void fileWrite(std::string nom_capteur, std::string donnee, std::string heure)
+void fileWrite(std::string nom_capteur, std::string donnee, std::string date, std::string heure)
 {
     //Construction du nom du fichier
     std::string nom_fichier = "log/log_" + nom_capteur + ".txt";
@@ -48,7 +48,8 @@ void fileWrite(std::string nom_capteur, std::string donnee, std::string heure)
     std::ofstream fichier(nom_fichier, std::ios::app);
 
     //Ecriture dans le fichier
-    fichier << heure << " : "
+    fichier << date << " : "
+            << heure << " : "
             << nom_capteur << " : "
             << donnee << std::endl;
 }

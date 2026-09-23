@@ -26,7 +26,7 @@ public:
     void consoleWrite(std::string nom_capteur, std::string donnee);
 
     //stocker les donnees des capteurs dans des fichiers de logs
-    void fileWrite(std::string nom_capteur, std::string donnee, std::string heure);
+    void fileWrite(std::string nom_capteur, std::string donnee,std::string date, std::string heure);
 };
 
 #endif
