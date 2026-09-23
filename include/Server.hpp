@@ -21,6 +21,12 @@ public:
 
     // Destructeur
     ~Server();
+
+    //visualiser les donnees recues des capteurs dans la console.
+    void consoleWrite();
+
+    //stocker les donnees des capteurs dans des fichiers de logs
+    void fileWrite();
 };
 
 #endif
