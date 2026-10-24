@@ -1,0 +1,6 @@
+{
+  "name": "Aura AP4A Luxmeter & Sensor Hub",
+  "description": "Web dashboard and interactive simulator migrating the C++ Aura AP4A sensor monitoring, server logging, and scheduler system.",
+  "request_feedback": false,
+  "major_capabilities": []
+}
